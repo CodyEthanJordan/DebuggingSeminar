@@ -5,8 +5,8 @@ int sumOfSquares(int* list, int listLength);
 int main()
 {
 	// make two lists
-	int listA[4] = { 0,1,2,3 };
-	int listB[4] = { -1,0,1,2 };
+	int listA[4] = { 0,1,2,3 }; // the numbers 0 through 3
+	int listB[4] = { -1,0,1,2 }; // the numbers -1 through 2
 
 	// find out the sum of the squares of their elements
 	int totalA = sumOfSquares(listA, 4);
@@ -26,6 +26,7 @@ int main()
 		printf("B is bigger");
 	}
 
+	// last element of listA is 3
 	printf("The last element of list A is %i", listA[3]);
 
 	return 0;
