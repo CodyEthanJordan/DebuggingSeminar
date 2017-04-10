@@ -14,6 +14,7 @@ int main()
 		printf("I'm not me");
 	}
 
-	return 0;
+	int x;
 
+	return 0;
 }
